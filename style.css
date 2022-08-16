@@ -1,0 +1,39 @@
+body {
+    background-color: maroon;
+}
+
+.color {
+    background-color: black;
+}
+
+.image {
+    width: 90%;
+    height: 400px;
+    margin: 10px 0px 10px 20px;
+}
+
+.disc {
+    background-image: linear-gradient(orange, pink);
+}
+
+.description {
+    position: absolute;
+    left: 0;
+    bottom: 110x;
+    opacity: 0;
+}
+
+.disc:hover .description {
+    opacity: 1;
+    background-image: linear-gradient(pink, orange);
+    transition: opacity 0.9s ease-in-out;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: aqua;
+}
